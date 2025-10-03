@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "987234398133",
+    "project_id": "langbuddyapp",
+    "storage_bucket": "langbuddyapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987234398133:android:90700df2232ac52b7533fc",
+        "android_client_info": {
+          "package_name": "com.lang.buddycons"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMreCUheytlozydNoYoxrYw2mesH0fKYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987234398133:android:6b6c1cdca12ba0287533fc",
+        "android_client_info": {
+          "package_name": "student.projects.langbuddyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMreCUheytlozydNoYoxrYw2mesH0fKYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
