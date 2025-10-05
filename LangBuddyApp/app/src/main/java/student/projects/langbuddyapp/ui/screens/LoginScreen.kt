@@ -113,21 +113,9 @@ fun LoginScreen(
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Login Button (BYPASS MODE: uses mockLogin)
+            // Login Button
             Button(
                 onClick = {
-                    // --------------------------
-                    // BYPASS FOR TESTING
-                    // --------------------------
-                    authManager.mockLogin {
-                        Toast.makeText(context, "Bypassed login successful!", Toast.LENGTH_SHORT).show()
-                        onNavigateToHome()
-                    }
-
-                    // --------------------------
-                    // ORIGINAL CODE (commented out for testing)
-                    // --------------------------
-                    /*
                     isLoading = true
                     authManager.loginWithEmail(
                         email = email,
@@ -142,7 +130,6 @@ fun LoginScreen(
                             Toast.makeText(context, error, Toast.LENGTH_SHORT).show()
                         }
                     )
-                    */
                 },
                 modifier = Modifier
                     .fillMaxWidth()
