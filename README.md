@@ -23,7 +23,8 @@ It combines lessons, quizzes, progress tracking, and gamification features like 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/VCNMB-3rd-years/vcnmb-prog7314-2025-poe-langbuddy.git
-2. Open in Android Studio
+
+### 2. Open in Android Studio
 Go to File → Open → select the project root directory.
 
 Wait for Gradle sync to complete.
